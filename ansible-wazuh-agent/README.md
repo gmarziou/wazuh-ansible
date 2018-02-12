@@ -18,6 +18,7 @@ Role Variables
 --------------
 
 * `wazuh_manager_ip`: Wazuh Manager IP Address.
+* `wazuh_manager_fqdn`: Wazuh Manager hostname (alternative to using Wazuh Manager IP address).
 * `wazuh_authd_port`: Registration service port (Default: 1515).
 * `wazuh_register_client`: If true, agent will request a new key from registration service (Default: True).
 * `wazuh_agent_config`: Includes several parameters for configuring agent components as syscheck, rootcheck, open-scap and localfiles.

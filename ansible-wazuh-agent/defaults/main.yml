@@ -1,5 +1,6 @@
 ---
 wazuh_manager_ip: null
+wazuh_manager_fqdn: null
 wazuh_profile: null
 wazuh_manager_proto: tcp
 wazuh_agent_authd:

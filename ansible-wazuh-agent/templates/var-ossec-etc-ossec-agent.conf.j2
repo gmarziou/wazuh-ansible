@@ -9,6 +9,8 @@
   <client>
     {% if wazuh_manager_ip is not none %}
     <server-ip>{{ wazuh_manager_ip }}</server-ip>
+    {% elif wazuh_manager_fqdn is not none %}
+    <server-hostname>{{ wazuh_manager_fqdn }}</server-hostname>
     {% else %}
     <server-ip>SERVER-IP</server-ip>
     {% endif %}
